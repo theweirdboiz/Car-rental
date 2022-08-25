@@ -17,10 +17,9 @@ if (navClose) {
 }
 // Remove menu mobile
 const navLinks = document.querySelectorAll(".nav__link");
-if (navLinks) {
-  for (const navLink of navLinks) {
-    navLink.onclick = () => {
-      navToggle.click();
-    };
-  }
+for (const navLink of navLinks) {
+  navLink.addEventListener("click", linkAction);
 }
+const linkAction = (e) => {
+  e.target.classList.remove("show-menu");
+};

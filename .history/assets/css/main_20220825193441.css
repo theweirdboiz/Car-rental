@@ -302,18 +302,6 @@ a {
   transition: 0.45s;
   animation: button 3s infinite;
 }
-.home .shape__big,
-.home .shape__small {
-  position: absolute;
-}
-.home .shape__big {
-  top: -4rem;
-  left: -9rem;
-}
-.home .shape__small {
-  right: -10rem;
-  bottom: 3rem;
-}
 /* Button animate */
 @keyframes button {
   0% {

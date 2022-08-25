@@ -17,10 +17,4 @@ if (navClose) {
 }
 // Remove menu mobile
 const navLinks = document.querySelectorAll(".nav__link");
-if (navLinks) {
-  for (const navLink of navLinks) {
-    navLink.onclick = () => {
-      navToggle.click();
-    };
-  }
-}
+console.log(navLinks);

@@ -114,20 +114,9 @@ a {
 .main {
   overflow: hidden;
 }
-
-.shape {
-  background-color: hsla(219, 33%, 32%, 5);
-  filter: blur(110px);
-  border-radius: 50%;
-}
-.shape__big {
-  width: 400px;
-  height: 400px;
-  /* left: ; */
-}
+.shape__big,
 .shape__small {
-  width: 300px;
-  height: 300px;
+  position: absolute;
 }
 /* HEADER & NAV */
 .header {
@@ -301,18 +290,6 @@ a {
   box-shadow: 0 0 10px hsl(158, 98%, 43%);
   transition: 0.45s;
   animation: button 3s infinite;
-}
-.home .shape__big,
-.home .shape__small {
-  position: absolute;
-}
-.home .shape__big {
-  top: -4rem;
-  left: -9rem;
-}
-.home .shape__small {
-  right: -10rem;
-  bottom: 3rem;
 }
 /* Button animate */
 @keyframes button {

@@ -311,8 +311,8 @@ a {
   left: -9rem;
 }
 .home .shape__small {
-  right: -10rem;
-  bottom: 3rem;
+  right: -3rem;
+  bottom: -8rem;
 }
 /* Button animate */
 @keyframes button {

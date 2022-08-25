@@ -310,10 +310,6 @@ a {
   top: -4rem;
   left: -9rem;
 }
-.home .shape__small {
-  right: -10rem;
-  bottom: 3rem;
-}
 /* Button animate */
 @keyframes button {
   0% {

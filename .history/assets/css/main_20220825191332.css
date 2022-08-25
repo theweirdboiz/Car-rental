@@ -114,21 +114,6 @@ a {
 .main {
   overflow: hidden;
 }
-
-.shape {
-  background-color: hsla(219, 33%, 32%, 5);
-  filter: blur(110px);
-  border-radius: 50%;
-}
-.shape__big {
-  width: 400px;
-  height: 400px;
-  /* left: ; */
-}
-.shape__small {
-  width: 300px;
-  height: 300px;
-}
 /* HEADER & NAV */
 .header {
   width: 100%;
@@ -255,71 +240,5 @@ a {
 .home__car-name {
   font-size: 0.625rem;
   font-weight: 400;
-  text-transform: uppercase;
   color: var(--text-color-light);
-}
-.home__car-data {
-  text-align: center;
-}
-.home__car-number {
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: 0.25rem;
-}
-.home__car-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--container-color);
-  border-radius: 50%;
-  padding: 0.376rem;
-  font-size: 0.875rem;
-  margin-bottom: 0.75rem;
-}
-.home__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-self: center;
-  width: 70px;
-  height: 70px;
-  border: 2px solid hsl(158, 89%, 30%);
-  border-radius: 50%;
-  font-size: var(--small-font-size);
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-weight: var(--font-medium);
-  position: relative;
-}
-.home__button:before {
-  content: "";
-  position: absolute;
-  border: 2px solid hsl(158, 98%, 43%);
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  box-shadow: 0 0 10px hsl(158, 98%, 43%);
-  transition: 0.45s;
-  animation: button 3s infinite;
-}
-.home .shape__big,
-.home .shape__small {
-  position: absolute;
-}
-.home .shape__big {
-  top: -4rem;
-  left: -9rem;
-}
-.home .shape__small {
-  right: -10rem;
-  bottom: 3rem;
-}
-/* Button animate */
-@keyframes button {
-  0% {
-    box-shadow: 0 0 12px hsl(158, 98%, 43%);
-  }
-  50% {
-    box-shadow: 0 0 24px hsl(158, 98%, 43%);
-  }
 }
