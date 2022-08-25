@@ -214,7 +214,7 @@ a {
 .scroll-header {
   border-radius: 0 0 1rem 1rem;
   background-color: var(--body-color);
-  box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
+  box-shadow: 0 2px 4px hsl(219, 8%, 75%);
 }
 
 /* HOME */

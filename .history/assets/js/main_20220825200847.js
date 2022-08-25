@@ -26,10 +26,8 @@ if (navLinks) {
 }
 // Change background header
 const header = document.querySelector("#header");
-window.onscroll = () => {
-  if (window.scrollY >= 50) {
-    header.classList.add("scroll-header");
-  } else {
-    header.classList.remove("scroll-header");
-  }
-};
+if (window.scrollY >= 50) {
+  header.classList.add("sroll-header");
+} else {
+  header.classList.remove("scroll-header");
+}
