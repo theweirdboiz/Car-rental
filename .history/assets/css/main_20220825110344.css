@@ -1,0 +1,45 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap");
+:root {
+  --header-height: 3.5rem;
+  --body-font: "Exo 2", sans-serif;
+  /* Colors mode hsl(hue,saturation, lightness) */
+  --first-color: hsl(219, 69%, 56%);
+  --first-color-alt: hsl(219, 69%, 52%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
