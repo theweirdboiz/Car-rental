@@ -43,12 +43,4 @@ const swiperPopular = new Swiper(".popular__container", {
     el: ".swiper-pagination",
     dynamicBullets: true,
   },
-  breakpoints: {
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      spaceBetween: 48,
-    },
-  },
 });

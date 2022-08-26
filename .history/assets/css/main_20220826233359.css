@@ -452,25 +452,3 @@ a {
 .popular__price {
   font-size: var(--h3-font-size);
 }
-.popular__button {
-  border: none;
-  padding: 0.75rem 1rem;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border-radius: 1rem 0 1rem 0;
-  cursor: pointer;
-}
-.popular__button i {
-  font-size: 1.25rem;
-}
-.popular__card:hover .popular__img {
-  transform: translateY(-0.25rem);
-}
-/* swiper css */
-.swiper-pagination-bullet {
-  background: var(--text-color);
-}
-.swiper-pagination-bullet-active {
-  background-color: var(--first-color);
-}

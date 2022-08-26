@@ -34,21 +34,9 @@ window.onscroll = () => {
   }
 };
 // Popular Swiper
-const swiperPopular = new Swiper(".popular__container", {
-  loop: true,
-  spaceBetween: 24,
-  slidesPerView: "auto",
-  grabCursor: true,
+const swiper = new Swiper(".popular__container", {
   pagination: {
     el: ".swiper-pagination",
-    dynamicBullets: true,
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      spaceBetween: 48,
-    },
+    dynamicBullets: tru,
   },
 });

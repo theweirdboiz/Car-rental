@@ -38,17 +38,9 @@ const swiperPopular = new Swiper(".popular__container", {
   loop: true,
   spaceBetween: 24,
   slidesPerView: "auto",
-  grabCursor: true,
+  grapCursor: true,
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      spaceBetween: 48,
-    },
   },
 });
