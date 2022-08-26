@@ -120,6 +120,7 @@ a {
 }
 .main {
   overflow: hidden;
+  height: 1800px;
 }
 
 .shape {
@@ -154,7 +155,7 @@ a {
   font-size: var(--normal-font-size);
   padding: 1rem 2rem;
   border-radius: 0.25rem;
-  transition: 0.3s;
+  transition: 1.25s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .button:hover {
   background-color: var(--first-color-alt);
