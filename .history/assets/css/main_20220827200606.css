@@ -668,7 +668,6 @@ a {
 /* LOGOS */
 .logos__img {
   width: 40px;
-  cursor: pointer;
   opacity: 0.4;
   transition: 0.3s;
 }
@@ -676,9 +675,4 @@ a {
   grid-template-columns: repeat(3, max-content);
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  padding: 2rem;
-}
-.logos__img:hover {
-  opacity: 1;
 }

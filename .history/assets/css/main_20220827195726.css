@@ -634,7 +634,7 @@ a {
   position: relative;
 }
 .offer__container {
-  grid-template-rows: max-content 224px;
+  grid-template-columns: max-content 224px;
 }
 .offer__bg {
   position: absolute;
@@ -664,21 +664,4 @@ a {
   width: 400px;
   bottom: 2rem;
   right: -5.5rem;
-}
-/* LOGOS */
-.logos__img {
-  width: 40px;
-  cursor: pointer;
-  opacity: 0.4;
-  transition: 0.3s;
-}
-.logos__container {
-  grid-template-columns: repeat(3, max-content);
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  padding: 2rem;
-}
-.logos__img:hover {
-  opacity: 1;
 }
