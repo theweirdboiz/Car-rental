@@ -75,7 +75,6 @@ button,
 textarea,
 select {
   outline: none;
-  border: none;
 }
 p,
 h1,
@@ -578,7 +577,6 @@ a {
   background-color: var(--container-color);
   padding: 2rem 1.5rem 1.5rem;
   border-radius: 1rem;
-  cursor: pointer;
 }
 .featured__card .shape__smaller {
   position: absolute;
@@ -607,25 +605,4 @@ a {
 }
 .featured__price {
   font-size: var(--h3-font-size);
-}
-.featured__button {
-  padding: 0.75rem 1rem;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border-radius: 1rem 0 1rem 0;
-  cursor: pointer;
-}
-.featured__button i {
-  font-size: 1.25rem;
-}
-.featured__card:hover .featured__img {
-  transform: translate(-0.25rem, -0.25rem);
-}
-/* Active link featured */
-.active-featured {
-  background-color: var(--first-color);
-}
-.active-featured > * {
-  opacity: 1;
 }

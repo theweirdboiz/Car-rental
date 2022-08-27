@@ -578,7 +578,6 @@ a {
   background-color: var(--container-color);
   padding: 2rem 1.5rem 1.5rem;
   border-radius: 1rem;
-  cursor: pointer;
 }
 .featured__card .shape__smaller {
   position: absolute;
@@ -620,12 +619,5 @@ a {
   font-size: 1.25rem;
 }
 .featured__card:hover .featured__img {
-  transform: translate(-0.25rem, -0.25rem);
-}
-/* Active link featured */
-.active-featured {
-  background-color: var(--first-color);
-}
-.active-featured > * {
-  opacity: 1;
+  transform: translate(-0.25rem);
 }

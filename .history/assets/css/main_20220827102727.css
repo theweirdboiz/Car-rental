@@ -626,6 +626,3 @@ a {
 .active-featured {
   background-color: var(--first-color);
 }
-.active-featured > * {
-  opacity: 1;
-}

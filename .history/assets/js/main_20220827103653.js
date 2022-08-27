@@ -64,7 +64,11 @@ const mixerFeatured = mixitup(".featured__content", {
 // Link active featured
 const linksFeatured = $$(".featured__item");
 const removeActive = () => {
-  linksFeatured.forEach((link) => link.classList.remove("active-featured"));
+  linksFeatured.forEach((link) =>
+    link.find(".active-featured")
+      ? link.classList.remove("active-featured")
+      : undefined
+  );
 };
 for (const link of linksFeatured) {
   link.onclick = () => {
