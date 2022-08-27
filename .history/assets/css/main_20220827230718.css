@@ -747,10 +747,3 @@ a {
 .footer__social-link {
   font-size: 1.25rem;
 }
-.footer__copy {
-  display: block;
-  margin-top: 4.5rem;
-  text-align: center;
-  font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
-}

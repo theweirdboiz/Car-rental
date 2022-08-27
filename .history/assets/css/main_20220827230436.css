@@ -732,25 +732,11 @@ a {
   row-gap: 0.5rem;
 }
 .footer__link,
-.footer__social-link {
+.footer__social {
   color: var(--text-color);
   transition: 0.3s;
 }
 .footer__link:hover,
-.footer__social-link:hover {
+.footer__social:hover {
   color: var(--title-color);
-}
-.footer__social {
-  display: flex;
-  column-gap: 1.5rem;
-}
-.footer__social-link {
-  font-size: 1.25rem;
-}
-.footer__copy {
-  display: block;
-  margin-top: 4.5rem;
-  text-align: center;
-  font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
 }
