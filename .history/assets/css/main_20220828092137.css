@@ -252,10 +252,6 @@ a {
   box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
 }
 
-/* Active link */
-.active-link {
-  color: var(--first-color);
-}
 /* HOME */
 .home {
   position: relative;
@@ -792,7 +788,3 @@ a {
 .show-scroll {
   bottom: 3rem;
 }
-/* breakpoint */
-/* For small devices */
-/* For medium devices */
-/* For large devices */

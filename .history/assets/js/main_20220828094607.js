@@ -80,26 +80,22 @@ function scrollActive() {
   const scrollY = window.pageYOffset;
   sections.forEach((section) => {
     const sectionHeight = section.offsetHeight;
-    const sectionTop = section.offsetTop - 56;
+    const sectionTop = section.offsetTop - 58;
     const sectionId = section.getAttribute("id");
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      $(`.nav__menu a[href='#${sectionId}']`).classList.add("active-link");
+      $(`.nav__menu a[href=#${sectionId}]`).classList.add("active-link");
     } else {
-      $(`.nav__menu a[href='#${sectionId}']`).classList.remove("active-link");
+      $(`.nav__menu a[href=#${sectionId}]`).classList.remove("active-link");
     }
   });
 }
 window.addEventListener("scroll", scrollActive);
 // Show scroll up
-function scrollUp() {
+const scrollUpBtn = $("#scrollup");
+window.onscroll = () => {
   if (window.scrollY >= 350) {
     scrollUpBtn.classList.add("show-scroll");
   } else {
     scrollUpBtn.classList.remove("show-scroll");
   }
-}
-const scrollUpBtn = $("#scrollup");
-scrollUpBtn.onclick = () => {
-  window.scrollTo(0, 0);
 };
-window.addEventListener("scroll", scrollUp);

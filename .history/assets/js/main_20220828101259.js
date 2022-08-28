@@ -78,11 +78,12 @@ const sections = Array.from($$("section[id]"));
 
 function scrollActive() {
   const scrollY = window.pageYOffset;
+  console.log(scrollY, window.scrollY);
   sections.forEach((section) => {
     const sectionHeight = section.offsetHeight;
     const sectionTop = section.offsetTop - 56;
     const sectionId = section.getAttribute("id");
-    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+    if (scrollY > sectionTop && scrollY <= sectionHeight) {
       $(`.nav__menu a[href='#${sectionId}']`).classList.add("active-link");
     } else {
       $(`.nav__menu a[href='#${sectionId}']`).classList.remove("active-link");

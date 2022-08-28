@@ -72,34 +72,4 @@ for (const link of linksFeatured) {
     link.classList.add("active-featured");
   };
 }
-// Scroll section active link
-
-const sections = Array.from($$("section[id]"));
-
-function scrollActive() {
-  const scrollY = window.pageYOffset;
-  sections.forEach((section) => {
-    const sectionHeight = section.offsetHeight;
-    const sectionTop = section.offsetTop - 56;
-    const sectionId = section.getAttribute("id");
-    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      $(`.nav__menu a[href='#${sectionId}']`).classList.add("active-link");
-    } else {
-      $(`.nav__menu a[href='#${sectionId}']`).classList.remove("active-link");
-    }
-  });
-}
-window.addEventListener("scroll", scrollActive);
 // Show scroll up
-function scrollUp() {
-  if (window.scrollY >= 350) {
-    scrollUpBtn.classList.add("show-scroll");
-  } else {
-    scrollUpBtn.classList.remove("show-scroll");
-  }
-}
-const scrollUpBtn = $("#scrollup");
-scrollUpBtn.onclick = () => {
-  window.scrollTo(0, 0);
-};
-window.addEventListener("scroll", scrollUp);

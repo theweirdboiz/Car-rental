@@ -78,6 +78,7 @@ const sections = Array.from($$("section[id]"));
 
 function scrollActive() {
   const scrollY = window.pageYOffset;
+  console.log(scrollY, window.scrollY);
   sections.forEach((section) => {
     const sectionHeight = section.offsetHeight;
     const sectionTop = section.offsetTop - 56;
