@@ -255,7 +255,6 @@ a {
 
 /* Active link */
 .active-link {
-  font-weight: var(--font-medium);
   color: var(--first-color);
 }
 /* HOME */
@@ -892,6 +891,7 @@ a {
 @media screen and (min-width: 1024px) {
   .container {
     margin: 0 auto;
+    padding: 0 2rem;
   }
   .shape__big {
     width: 500px;

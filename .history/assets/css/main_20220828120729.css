@@ -255,7 +255,6 @@ a {
 
 /* Active link */
 .active-link {
-  font-weight: var(--font-medium);
   color: var(--first-color);
 }
 /* HOME */

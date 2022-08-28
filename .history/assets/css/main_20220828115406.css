@@ -255,7 +255,6 @@ a {
 
 /* Active link */
 .active-link {
-  font-weight: var(--font-medium);
   color: var(--first-color);
 }
 /* HOME */
@@ -858,7 +857,9 @@ a {
   .section {
     padding: 7rem 0 2rem;
   }
-
+  .nav {
+    height: calc(var(--header-height)+1.5rem);
+  }
   .nav__toggle,
   .nav__close {
     display: none;
@@ -875,9 +876,6 @@ a {
   .about__container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .features__card {
-    padding: 0.75rem 1rem;
-  }
   .featured__filters {
     gap: 2rem;
   }
@@ -892,6 +890,7 @@ a {
 @media screen and (min-width: 1024px) {
   .container {
     margin: 0 auto;
+    padding: 0 2rem;
   }
   .shape__big {
     width: 500px;
@@ -925,7 +924,6 @@ a {
   .about__card {
     width: 198px;
     padding: 1rem 1.25rem;
-    right: -24px;
   }
   .about__description {
     padding-right: 4rem;

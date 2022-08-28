@@ -118,7 +118,7 @@ scroll.reveal(
   `.home__title, .popular__container,.features__img,.featured__filters`
 );
 scroll.reveal(`.home__subtitle`, { delay: 500, origin: "top" });
-scroll.reveal(`.home__elec`, { delay: 500, origin: "top" });
+scroll.reveal(`.home__elec`, { delay: 500, origin: "top " });
 scroll.reveal(`.home__img`, { delay: 800 });
 scroll.reveal(`.home__car-data`, {
   delay: 900,

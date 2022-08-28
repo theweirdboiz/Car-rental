@@ -114,11 +114,9 @@ const scroll = ScrollReveal({
   delay: 300,
   // reset: true,
 });
-scroll.reveal(
-  `.home__title, .popular__container,.features__img,.featured__filters`
-);
-scroll.reveal(`.home__subtitle`, { delay: 500, origin: "top" });
-scroll.reveal(`.home__elec`, { delay: 500, origin: "top" });
+scroll.reveal(`.home__title, .popular__container,.features__img`);
+scroll.reveal(`.home__subtitle`, { delay: 500, origin: "right" });
+scroll.reveal(`.home__elec`, { delay: 600, origin: "left" });
 scroll.reveal(`.home__img`, { delay: 800 });
 scroll.reveal(`.home__car-data`, {
   delay: 900,
@@ -126,10 +124,6 @@ scroll.reveal(`.home__car-data`, {
   origin: "bottom",
 });
 scroll.reveal(`.home__button`, { delay: 1000, origin: "bottom" });
-scroll.reveal(`.about__group,.offer__data`, { origin: "left" });
-scroll.reveal(`.about__data,.offer__img`, { origin: "right" });
+scroll.reveal(`.about__group`, { origin: "left" });
+scroll.reveal(`.about__data`, { origin: "right" });
 scroll.reveal(`.features__map`, { delay: 500, origin: "bottom" });
-scroll.reveal(`.features__card`, { interval: 300 });
-scroll.reveal(`.featured__card,.logos__content,.footer__content`, {
-  interval: 100,
-});
